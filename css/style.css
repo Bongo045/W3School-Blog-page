@@ -1,0 +1,381 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@300;500;600;700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Raleway', sans-serif;
+}
+
+.max-width{
+    max-width: 1140px;
+    margin: auto;
+}
+
+/* !..........Header Section Start.......... */
+header {
+    text-align: center;
+    padding: 50px;
+}
+
+header h1 {
+    font-weight: 600;
+    padding: 20px;
+}
+
+header p {
+    font-weight: 400;
+}
+
+header span {
+    background-color: black;
+    color: white;
+    padding: 2px 8px;
+}
+/* !..........Header Section End.......... */
+
+/* !..........Main Section Start.......... */
+/* !..........TITLE HEADING Start.......... */
+.title-content {
+    width: 68%;
+    background: white;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 2px 10px 7px;
+    float: left;
+    margin-right: 10px;
+}
+
+.title-content img {
+    width: 100%;
+}
+
+.title-content h1 {
+    font-size: 25px;
+    font-weight: 600;
+    padding: 10px;
+    text-transform: uppercase;
+}
+
+.title-content p {
+    padding: 10px;
+}
+
+.title-span {
+    color: gray;
+}
+
+.title-text {
+    color: gray;
+    line-height: 25px;
+}
+
+.title-content button {
+    margin: 10px;
+    padding: 10px 20px;
+    font-size: 15px;
+    font-weight: 700;
+    border: 1px rgba(128, 128, 128, 0.452) solid;
+    border-radius: 3px;
+    transition: 0.3s ease;
+}
+
+.title-content button:hover {
+    background: rgb(196, 196, 196);
+    cursor: pointer;
+}
+
+
+.title-comment {
+    text-align: end;
+    margin-right: 20px;
+    float: right;
+}
+
+
+.Comments-span {
+    background: black;
+    color: white;
+    padding: 2px 8px;
+    margin-left: 20px;
+}
+/* !..........TITLE HEADING End.......... */
+
+/* !..........TIFTEKHAR BONGO Start.......... */
+.name-content {
+    width: 30%;
+    background: white;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 2px 10px 7px;
+    float: right;
+}
+
+.name-content img {
+    width: 100%;
+}
+
+.name-content h1 {
+    font-size: 25px;
+    font-weight: 600;
+    padding: 10px;
+}
+
+.name-content p {
+    padding: 10px;
+    color: gray;
+}
+/* !..........TIFTEKHAR BONGO End.......... */
+
+/* !..........Blog Entry Start.......... */
+.blog-content {
+    width: 68%;
+    background: white;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 2px 10px 7px;
+    margin-top: 50px;
+    float: left;
+    margin-right: 10px;
+}
+
+.blog-content img {
+    width: 100%;
+}
+
+.blog-content h1 {
+    font-size: 25px;
+    font-weight: 600;
+    padding: 10px;
+    text-transform: uppercase;
+}
+
+.blog-content p {
+    padding: 10px;
+}
+
+.blog-span {
+    color: gray;
+}
+
+.blog-text {
+    color: gray;
+    line-height: 25px;
+}
+
+.blog-content button {
+    margin: 10px;
+    padding: 10px 20px;
+    font-size: 15px;
+    font-weight: 700;
+    border: 1px rgba(128, 128, 128, 0.452) solid;
+    border-radius: 3px;
+    transition: 0.3s ease;
+}
+
+.blog-content button:hover {
+    background: rgb(196, 196, 196);
+    cursor: pointer;
+}
+
+
+.blog-comment {
+    text-align: end;
+    margin-right: 20px;
+    float: right;
+}
+
+
+.blog-comment .Comments-span {
+    background: black;
+    color: white;
+    padding: 2px 8px;
+    margin-left: 20px;
+    border-radius: 50%;
+}
+/* !..........Blog Entry End.......... */
+
+/* !..........Popular posts Start.......... */
+.popular-content {
+    width: 30%;
+    background: white;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 2px 10px 7px;
+    float: right;
+    margin-top: -70px;
+}
+
+.popular-content h1 {
+    background-color: rgb(231, 231, 231);
+    font-size: 20px;
+    font-weight: 400;
+    padding: 20px;
+}
+
+.popular-content img {
+    width: 15%;
+    float: left;
+    margin: 15px;
+}
+
+.popular-content p {
+    font-size: 20px;
+    padding-top: 15px;
+}
+
+.popular-content p span {
+    font-size: 15px;
+}
+
+hr {
+    opacity: 30%;
+    width: 100%;
+}
+
+.popular-hover:hover {
+    background: rgb(216, 216, 216);
+    cursor: pointer;
+    transition: 0.3s ease;
+}
+/* !..........Popular posts End.......... */
+
+/* !..........Tags Start.......... */
+.tag-content {
+    width: 30%;
+    background: white;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 2px 10px 7px;
+    float: right;
+    margin-top: 50px;
+}
+
+.tag-content h1 {
+    background-color: rgb(231, 231, 231);
+    font-size: 20px;
+    font-weight: 400;
+    padding: 20px;
+}
+
+.tag-content p {
+    padding: 10px;
+    color: gray;
+}
+
+.tag-content p span {
+    background: rgba(231, 231, 231, 0.466);
+    margin: 5px;
+}
+/* !..........Tags End.......... */
+/* !..........Main Section End.......... */
+
+/* !..........Footer Section Start.......... */
+footer {
+    width: 100%;
+    float: left;
+    margin-top: 50px;
+    padding: 75px 0;
+    background-color: gray;
+}
+
+.previous-btn {
+    padding: 13px 20px;
+    font-size: 18px;
+    margin-left: 20px;
+    border-radius: 5px;
+    border: none;
+    color: rgb(189, 189, 189);
+    background: rgb(75, 75, 75);
+    cursor: not-allowed;
+}
+
+.previous-btn:hover {
+    background-color: rgb(145, 145, 145);
+    color: rgb(59, 59, 59);
+}
+
+.next-btn {
+    padding: 13px 20px;
+    font-size: 18px;
+    border-radius: 5px;
+    border: none;
+    color: white;
+    background: black;
+    cursor: pointer;
+}
+
+.next-btn:hover {
+    background-color: rgb(202, 202, 202);
+    color: rgb(59, 59, 59);
+}
+/* !..........Footer Section End.......... */
+
+/* !..........Media Screen End.......... */
+@media screen and (max-width: 768px)
+{
+    /* !..........TITLE HEADING Start.......... */
+    .title-content {
+        width: 100%;
+        background: white;
+        box-shadow: rgba(0, 0, 0, 0.35) 0px 2px 10px 7px;
+        float: none;
+    }
+
+    .Comments-span {
+        margin-left: 10px;
+    }
+
+    .title-comment {
+        text-align: end;
+        margin-right: 10px;
+        float: right;
+    }
+/* !..........TITLE HEADING End.......... */
+
+/* !..........TIFTEKHAR BONGO Start.......... */
+    .name-content {
+        width: 100%;
+        float: none;
+        margin-top: 50px;
+    }
+/* !..........TIFTEKHAR BONGO End.......... */
+
+/* !..........Blog Entry Start.......... */
+    .blog-content {
+        width: 100%;
+        float: none;
+        margin-top: 50px;
+    }
+
+    .blog-comment {
+        text-align: end;
+        margin-right: 5px;
+        float: right;
+    }
+    
+    
+    .blog-comment .Comments-span {
+        margin-left: 10px;
+    }
+/* !..........Blog Entry End.......... */
+
+/* !..........Popular posts Start.......... */
+    .popular-content {
+        width: 100%;
+        float: none;
+        margin-top: 50px;
+    }
+
+    .popular-content img {
+        width: 50px;
+        margin: 15px;
+        box-sizing: border-box;
+        float: left;
+    }
+
+    .popular-content p {
+        font-size: 20px;
+        padding-top: 15px;
+    }
+/* !..........Popular posts Start.......... */
+
+/* !..........Tags Start.......... */
+    .tag-content {
+        width: 100%;
+        float: none;
+        margin-top: 50px;
+    }
+}
+/* !..........Tags End.......... */
+/* !..........Media Screen End.......... */
